@@ -1,0 +1,25 @@
+{
+  "name": "site-scoop-lite",
+  "version": "1.0.0",
+  "description": "A lite version of Site Scoop web application to download and clean websites",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "build": "node-sass public/css/style.scss public/css/style.css",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "axios": "^1.2.1",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.6",
+    "express": "^4.18.2",
+    "express-rate-limit": "^5.5.1",
+    "geoip-lite": "^1.4.3",
+    "puppeteer": "^13.0.0",
+    "sharp": "^0.29.3",
+    "winston": "^3.3.3",
+    "node-sass": "^7.0.1",
+    "netlify-lambda": "^2.0.3"
+  }
+}
