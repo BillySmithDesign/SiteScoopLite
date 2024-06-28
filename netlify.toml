@@ -4,7 +4,7 @@
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/views/index.ejs"
   status = 200
 
 [[headers]]
