@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
-    "build": "node-sass public/css/style.scss public/css/style.css",
+    "build": "node-sass public/css/style.scss public/css/style.css && npm install --legacy-peer-deps",
     "start": "node app.js"
   },
   "dependencies": {
