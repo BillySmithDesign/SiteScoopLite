@@ -1,18 +1,11 @@
 [build]
   publish = "public"
-  command = "npm run build --legacy-peer-deps"
+  command = "npm run build"
 
 [[redirects]]
   from = "/*"
-  to = "/views/index.ejs"
+  to = "/index.html"
   status = 200
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
-    X-Content-Type-Options = "nosniff"
 
 [functions]
   directory = "functions"
